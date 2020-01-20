@@ -1,7 +1,7 @@
 Summary: Terminal emulator for the X Window System
 Name: xterm
 Version: 295
-Release: 3%{?dist}
+Release: 1%{?dist}
 URL: http://invisible-island.net/xterm
 License: MIT
 Group: User Interface/X
@@ -98,12 +98,6 @@ fi
 %{x11_app_defaults_dir}/XTerm*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 295-3
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 295-2
-- Mass rebuild 2013-12-27
-
 * Wed Jul 10 2013 Miroslav Lichvar <mlichvar@redhat.com> 295-1
 - update to 295
 
